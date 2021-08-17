@@ -1,0 +1,59 @@
+.titulo {
+    width: 25%;
+    margin: 25px auto;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(top, rgb(255, 0, 0), rgb(241, 108, 0));
+    box-shadow: rgb(0, 0, 0) 5px 3px 10px;
+    padding: 2px 5px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.colorFondo {
+    background: -webkit-linear-gradient(top, rgb(130, 211, 50), rgb(108, 216, 0));
+}
+
+html {
+    height: 100%;
+}
+
+.subtitulo {
+    width: 80%;
+    margin: 5px auto;
+    padding-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+.contenidoPrincipal {
+    width: 91%;
+    margin: 5px auto;
+    border-top: 1px dashed black;
+}
+
+figure {
+    float: left;
+}
+
+figure img {
+    margin: 10% auto;
+    box-shadow: black 2px 2px 10px;
+    border-radius: 20px;
+    -webkit-transition: -webkit-transform 0.3s;
+}
+
+figure img:hover {
+    -webkit-transform: scale(1.05);
+}
+
+figcaption {
+    margin: 5px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 13px;
+}
+
+footer {
+    text-align: right;
+    clear: both;
+}
