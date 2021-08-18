@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>VIdeos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="funcionalidadBarra.js"></script>
+</head>
+
+<body>
+    <div id="video">
+        <iframe id="mivideo" width="560" height="315" src="https://www.youtube.com/embed/tgfRGOONJS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div id="video">
+        <video id="miVideo" src="videos/video-2012-04-05-14-22-32.mp4" width="560"></video>
+
+        <nav id="Navegacion">
+            <div id="botones">
+                <button type="button" id="reproducir">Play</button>
+                <div id="barra">
+                    <div id="progreso"></div>
+                </div>
+            </div>
+            <div id="controles">
+
+                <div id="volumen">
+                    <table>
+                        <tr>
+                            <td><button type="button" id="vMenos">-</button></td>
+                            <td><button type="button" id="mutear">M</button></td>
+                            <td><button type="button" id="vMas">+</button></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="tiempo">
+                    <p>00:00</p>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+</body>
+
+</html>

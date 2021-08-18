@@ -1,0 +1,54 @@
+#video {
+    width: 560px;
+    margin: 20px auto;
+    background-color: cornflowerblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#navegacion {
+    margin-top: 5px;
+}
+
+#reproducir {
+    float: left;
+    width: 100px;
+    height: 18px;
+}
+
+#barra {
+    background-color: white;
+    width: 450px;
+    height: 16px;
+    margin-left: 105px;
+    border: 1px solid rgb(117, 115, 115);
+}
+
+#progreso {
+    position: absolute;
+    width: 0px;
+    height: 16;
+    background-color: rgb(238, 8, 8);
+}
+
+#controles {
+    clear: both;
+    margin-bottom: 5px;
+}
+
+#volumen {
+    float: left;
+    width: 200px;
+}
+
+#volumen button {
+    text-align: center;
+    width: 50px;
+    margin-left: 15px;
+}
+
+#tiempo {
+    width: 50px;
+    margin-left: 500px;
+    text-align: left;
+}
