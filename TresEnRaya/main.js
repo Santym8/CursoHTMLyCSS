@@ -21,8 +21,6 @@ class Juego {
         ];
         this.terminado = false;
 
-
-
         if (this.ganador == 1) {
             this.turno = 2;
         } else if (this.ganador == 2) {
@@ -42,10 +40,6 @@ class Juego {
         }
         return true;
     }
-
-
-
-
 
     verificaGanador(jugador) {
         if (
@@ -78,9 +72,7 @@ class Juego {
             this.terminado = true;
         } else {
             this.cambiarTurno();
-
         }
-
     }
 
 
@@ -168,7 +160,6 @@ var juego = new Juego();
 window.addEventListener("load", main, false);
 
 function main() {
-
 
 
     let F0C0 = document.getElementById("F0C0");
@@ -480,7 +471,7 @@ function reiniciar() {
     juego.turno = 1;
     marcadorJugador1.innerHTML = 0;
     marcadorJugador2.innerHTML = 0;
-    imagenTurno.src = './imagenes/O.png';
+    cambiarImagenTurno();
 
 }
 
